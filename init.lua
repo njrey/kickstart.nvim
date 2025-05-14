@@ -354,6 +354,14 @@ require('lazy').setup({
         --   },
         -- },
         -- pickers = {}
+        --
+        defaults = {
+          file_ignore_patterns = {
+            'web/api/static/',
+            'redoc.standalone.js',
+            'swagger-ui-bundle.js',
+          },
+        },
         extensions = {
           ['ui-select'] = {
             require('telescope.themes').get_dropdown(),
