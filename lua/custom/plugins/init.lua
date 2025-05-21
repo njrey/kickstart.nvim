@@ -33,8 +33,4 @@ return {
     end,
   },
   -- overseer
-  {
-    'stevearc/overseer.nvim',
-    opts = {},
-  },
 }
